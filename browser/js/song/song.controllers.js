@@ -2,12 +2,12 @@
 
 juke.controller('SongChooseCtrl', function ($scope, SongFactory) {
 
-  $scope.songs = [];
+  // $scope.songs = [];
 
-  SongFactory.fetchAll()
-  .then(function (songs) {
-    $scope.songs = songs;
-  });
+  // SongFactory.fetchAll()
+  // .then(function (songs) {
+  //   $scope.songs = songs;
+  // });
 
   $scope.reset = function () {
     $scope.toAdd = null;
